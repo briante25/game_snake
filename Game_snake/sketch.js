@@ -18,10 +18,10 @@ let h;
 
 // STEP 1 SETUP!!
 function setup() {
-  createCanvas(580, 430);
+  createCanvas(700, 500);
   // Create the video
   video = createCapture(VIDEO);
-  video.size(580,430);
+  video.size(700,500);
   video.hide();
   flippedVideo = ml5.flipImage(video)
   // Start classifying
@@ -30,7 +30,7 @@ function setup() {
   
   w = floor(width / rez);
   h = floor(height / rez);
-  frameRate(6);
+  frameRate(7);
   snake = new Snake();
   foodLocation();
 }
