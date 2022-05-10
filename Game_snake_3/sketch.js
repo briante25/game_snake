@@ -30,7 +30,7 @@ function setup() {
   
   w = floor(width / rez);
   h = floor(height / rez);
-  frameRate(7);
+  frameRate(4);
   snake = new Snake();
   foodLocation();
 }
