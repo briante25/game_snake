@@ -7,7 +7,7 @@ let classifier;
 
 // STEP 1: Load the model
 function preload() {
-  classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/mjonWugjq/model.json');
+  classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/_5TwY9fTg/model.json');
 }
 
 let snake;
